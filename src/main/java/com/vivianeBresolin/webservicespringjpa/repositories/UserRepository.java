@@ -1,9 +1,9 @@
 package com.vivianeBresolin.webservicespringjpa.repositories;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.vivianeBresolin.webservicespringjpa.entities.User;
 
-public interface UserRepository extends CrudRepository<User, Long>{
+public interface UserRepository extends JpaRepository<User, Long>{
 
 }
